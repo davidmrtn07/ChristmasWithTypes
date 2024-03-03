@@ -19,8 +19,8 @@ namespace ChristmasWithTypes
             //TODO Set the TreeHeight to 10
             xmas.TreeHeight = 10;
 
-            Console.WriteLine($"This year christmas falls on {xmasDay} \n");
-            Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");
+            Console.WriteLine($"This year christmas falls on {Monday} \n");
+            Console.WriteLine($"Our tree will be {xmas.10ft} feet high \n");
             Console.WriteLine("Here are the presents we would like:");
 
             foreach (var present in xmas.Presents)
@@ -28,7 +28,7 @@ namespace ChristmasWithTypes
                 Console.WriteLine($"    {present}");
             }
 
-            Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
+            Console.WriteLine($"\n We like to call Santa, {Kris Kringle}");
         }
     }
 }
